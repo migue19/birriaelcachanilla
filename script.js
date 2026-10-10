@@ -1,5 +1,5 @@
-// TODO: reemplazar con el número real (formato internacional, sin + ni espacios)
-const WHATSAPP_NUMBER = '526860000000';
+// Número de WhatsApp en formato internacional (52 + 10 dígitos), sin + ni espacios
+const WHATSAPP_NUMBER = '529982443444';
 const WHATSAPP_MESSAGE = '¡Hola El Cachanilla! Quiero hacer un pedido:';
 
 const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
