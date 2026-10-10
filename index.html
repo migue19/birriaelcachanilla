@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Birria El Cachanilla | No es birria, es El Cachanilla</title>
+  <meta name="description" content="Birria El Cachanilla: tacos de birria, quesabirria, consomé con carne y combos. No es birria, es El Cachanilla.">
+  <meta property="og:title" content="Birria El Cachanilla">
+  <meta property="og:description" content="No es birria, es El Cachanilla. Tacos, quesabirria, consomé y combos.">
+  <meta property="og:image" content="assets/img/logo.jpg">
+  <meta name="theme-color" content="#0b0907">
+  <link rel="icon" href="assets/img/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Oswald:wght@400;500;600&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand">
+        <img src="assets/img/logo.jpg" alt="" width="44" height="44">
+        <span>El Cachanilla</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="nav-links">
+        <a href="#menu">Menú</a>
+        <a href="#combos">Combos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#visitanos">Visítanos</a>
+        <a href="#" class="btn btn--sm btn--red js-whatsapp">Pedir ahora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg" style="background-image:url('assets/img/hero-tacos.jpg')"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow">Birriería · Mexicali, B.C.</p>
+          <h1>No es birria,<br><span>es El Cachanilla.</span></h1>
+          <p class="hero__lead">Tacos dorados, quesabirria con queso derretido y consomé calientito, hechos con receta de casa y el sabor de la tierra cachanilla.</p>
+          <div class="hero__ctas">
+            <a href="#menu" class="btn btn--gold">Ver menú</a>
+            <a href="#" class="btn btn--outline js-whatsapp">Pedir por WhatsApp</a>
+          </div>
+        </div>
+        <img class="hero__logo" src="assets/img/logo.jpg" alt="Logo de Birria El Cachanilla" width="420" height="420">
+      </div>
+    </section>
+
+    <!-- FAVORITOS -->
+    <section class="section favorites">
+      <div class="container">
+        <h2 class="brush">Los favoritos</h2>
+        <div class="fav-grid">
+          <article class="fav">
+            <img src="assets/img/taco-grande.jpg" alt="Taco de birria con cebolla y cilantro" loading="lazy">
+            <div class="fav__body">
+              <h3>Tacos de birria</h3>
+              <p>Tortilla dorada en la grasa del guiso, carne deshebrada, cebolla y cilantro.</p>
+              <span class="price">desde $29</span>
+            </div>
+          </article>
+          <article class="fav">
+            <img src="assets/img/quesabirria.jpg" alt="Quesabirrias con queso derretido" loading="lazy">
+            <div class="fav__body">
+              <h3>Quesabirria</h3>
+              <p>Crujiente por fuera, con queso que se estira y birria jugosa por dentro.</p>
+              <span class="price">desde $55</span>
+            </div>
+          </article>
+          <article class="fav">
+            <img src="assets/img/consome.jpg" alt="Consomé con carne en cazuela de barro" loading="lazy">
+            <div class="fav__body">
+              <h3>Consomé con carne</h3>
+              <p>El caldo de la birria, servido bien caliente para acompañar o para llevar.</p>
+              <span class="price">desde $120</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENÚ -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <h2 class="brush">Menú</h2>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <h3>Tacos</h3>
+            <ul class="menu-list">
+              <li><span>Taco chico</span><i></i><b>$29</b></li>
+              <li><span>Taco grande</span><i></i><b>$43</b></li>
+              <li><span>Orden de 3 tacos chicos</span><i></i><b>$75</b></li>
+              <li><span>Orden de 5 tacos chicos</span><i></i><b>$135</b></li>
+            </ul>
+          </div>
+          <div class="menu-card">
+            <h3>Quesabirria</h3>
+            <ul class="menu-list">
+              <li><span>Quesabirria individual</span><i></i><b>$55</b></li>
+              <li><span>Orden de 3 quesabirrias</span><i></i><b>$150</b></li>
+              <li><span>1 taco + quesabirria</span><i></i><b>$80</b></li>
+            </ul>
+          </div>
+          <div class="menu-card">
+            <h3>Consomé con carne</h3>
+            <ul class="menu-list">
+              <li><span>Medio litro</span><i></i><b>$120</b></li>
+              <li><span>Litro</span><i></i><b>$195</b></li>
+            </ul>
+          </div>
+          <div class="menu-card">
+            <h3>Refrescos</h3>
+            <ul class="menu-list">
+              <li><span>Refresco 600 ml</span><i></i><b>$31</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMBOS -->
+    <section class="section combos" id="combos">
+      <div class="container">
+        <h2 class="brush">Combos</h2>
+        <p class="section__lead">Para el antojo completo. Pide tu combo y ahorra.</p>
+        <div class="combo-grid">
+          <article class="combo combo--feature">
+            <img src="assets/img/tacos-orden.jpg" alt="Orden de 5 tacos de birria" loading="lazy">
+            <div><h3>5 tacos chicos + consomé chico</h3><span class="tag">$230</span></div>
+          </article>
+          <article class="combo combo--feature">
+            <img src="assets/img/taco-quesa.jpg" alt="Tacos y quesabirria" loading="lazy">
+            <div><h3>2 tacos chicos + 1 quesabirria</h3><span class="tag">$105</span></div>
+          </article>
+          <article class="combo"><h3>5 tacos chicos + consomé grande</h3><span class="tag">$320</span></article>
+          <article class="combo"><h3>3 tacos chicos + refresco</h3><span class="tag">$99</span></article>
+          <article class="combo"><h3>5 tacos chicos + refresco</h3><span class="tag">$160</span></article>
+          <article class="combo"><h3>2 quesabirrias + refresco</h3><span class="tag">$130</span></article>
+        </div>
+        <p class="center"><a href="assets/img/menu.jpg" target="_blank" rel="noopener" class="link">Ver menú completo en imagen →</a></p>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section about" id="nosotros">
+      <div class="container about__inner">
+        <img src="assets/img/logo.jpg" alt="Logo de Birria El Cachanilla" loading="lazy" width="360" height="360">
+        <div>
+          <p class="eyebrow">Nuestra historia</p>
+          <h2 class="title">Orgullo cachanilla en cada taco</h2>
+          <p>En El Cachanilla cocinamos la birria a fuego lento, con chiles seleccionados y especias que le dan ese sabor profundo que nos distingue. Doramos cada tortilla en el consomé y servimos todo al momento.</p>
+          <p>Somos de aquí, del calor de Mexicali, y eso se nota en la mesa: porciones generosas, buen trato y un sabor que te hace regresar. Porque no es birria… <strong>es El Cachanilla.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISÍTANOS -->
+    <section class="section visit" id="visitanos">
+      <div class="container">
+        <h2 class="brush">Visítanos</h2>
+        <div class="visit-grid">
+          <div class="visit-card">
+            <h3>Dirección</h3>
+            <!-- TODO: reemplazar con la dirección real -->
+            <p>Calle Ejemplo #123, Col. Centro<br>Mexicali, Baja California</p>
+            <a href="https://maps.google.com/?q=Birria+El+Cachanilla+Mexicali" target="_blank" rel="noopener" class="link">Cómo llegar →</a>
+          </div>
+          <div class="visit-card">
+            <h3>Horario</h3>
+            <!-- TODO: reemplazar con el horario real -->
+            <p>Martes a domingo<br>8:00 a.m. – 4:00 p.m.</p>
+            <p class="muted">Lunes cerrado</p>
+          </div>
+          <div class="visit-card">
+            <h3>Pedidos</h3>
+            <p>Para llevar y pedidos grandes por WhatsApp.</p>
+            <a href="#" class="btn btn--red js-whatsapp">Escríbenos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__tag">No es birria, es El Cachanilla</p>
+      <p class="muted">© <span id="year"></span> Birria El Cachanilla. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="#" class="fab js-whatsapp" aria-label="Pedir por WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.93 9.93 0 0 0-8.5 15.05L2 22l5.08-1.5A9.94 9.94 0 1 0 12.04 2Zm0 18.1a8.15 8.15 0 0 1-4.17-1.15l-.3-.18-3.02.89.9-2.94-.2-.31a8.16 8.16 0 1 1 6.79 3.69Zm4.48-6.1c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.56.12-.16.25-.64.8-.79.97-.14.16-.29.18-.54.06a6.67 6.67 0 0 1-3.32-2.9c-.25-.43.25-.4.72-1.33.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.76 2.76 0 0 0-.86 2.05 4.8 4.8 0 0 0 1 2.55 10.97 10.97 0 0 0 4.2 3.71c1.56.67 2.17.73 2.95.62.48-.07 1.46-.6 1.67-1.18.2-.58.2-1.08.14-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
